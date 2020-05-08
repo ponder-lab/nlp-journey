@@ -149,3 +149,9 @@ $RECYCLE.BIN/
 save/
 tensorboard/
 data/
+
+*.index
+checkpoint/
+checkpoint
+model.ckpt*
+
