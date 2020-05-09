@@ -7,8 +7,13 @@ import tensorflow_datasets as tfds
 
 class DataProcessor:
 
-    def __init__(self, test_size=0.1, csv_path=None,
-                 max_length=40, feature_col='', target_col='', buffer_size=20000, batch_size=64):
+    def __init__(self, csv_path=None,
+                 test_size=0.1,
+                 max_length=40,
+                 feature_col='',
+                 target_col='',
+                 buffer_size=20000,
+                 batch_size=64):
         self.test_size = test_size
         self.csv_path = csv_path
         self.feature_col = feature_col
@@ -18,8 +23,7 @@ class DataProcessor:
         self.batch_size = batch_size
 
     def load_data(self):
-        df = pd.read_csv(self.csv_path).dropna(inplace=True)
-        return df
+        return pd.read_csv(self.csv_path).dropna(inplace=True)
 
     def train_test_split(self, df):
         test_rows = int(len(df) * self.test_size)

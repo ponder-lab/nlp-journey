@@ -27,20 +27,13 @@
 ### 01) NLP papers
 
 1. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [`paper`](https://arxiv.org/abs/1810.04805)
-2. GPT: Improving Language Understanding by Generative Pre-Training. [`paper`](https://blog.openai.com/language-unsupervised/)
-3. GPT-2: Language Models are Unsupervised Multitask Learners. [`paper`](https://blog.openai.com/better-language-models/)
-4. Transformer-XL: Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context. [`paper`](https://arxiv.org/abs/1901.02860)
-5. XLNet: Generalized Autoregressive Pretraining for Language Understanding. [`paper`](https://arxiv.org/abs/1906.08237)
-6. XLM: Cross-lingual Language Model Pretraining. [`paper`](https://arxiv.org/abs/1901.07291)
-7. RoBERTa: Robustly Optimized BERT Pretraining Approach. [`paper`](https://arxiv.org/abs/1907.11692)
-8. DistilBERT: a distilled version of BERT: smaller, faster, cheaper and lighter. [`paper`](https://arxiv.org/abs/1910.01108)
-9. CTRL: A Conditional Transformer Language Model for Controllable Generation. [`paper`](https://arxiv.org/abs/1909.05858)
-10. CamemBERT: a Tasty French Language Model. [`paper`](https://arxiv.org/abs/1911.03894)
-11. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations. [`paper`](https://arxiv.org/abs/1909.11942)
-12. T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. [`paper`](https://arxiv.org/abs/1910.10683)
-13. XLM-RoBERTa: Unsupervised Cross-lingual Representation Learning at Scale. [`paper`](https://arxiv.org/abs/1911.02116)
-14. MMBT: Supervised Multimodal Bitransformers for Classifying Images and Text. [`paper`](https://arxiv.org/pdf/1909.02950.pdf)
-15. FlauBERT: Unsupervised Language Model Pre-training for French. [`paper`](https://arxiv.org/abs/1912.05372)
+2. GPT-2: Language Models are Unsupervised Multitask Learners. [`paper`](https://blog.openai.com/better-language-models/)
+3. Transformer-XL: Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context. [`paper`](https://arxiv.org/abs/1901.02860)
+4. XLNet: Generalized Autoregressive Pretraining for Language Understanding. [`paper`](https://arxiv.org/abs/1906.08237)
+5. RoBERTa: Robustly Optimized BERT Pretraining Approach. [`paper`](https://arxiv.org/abs/1907.11692)
+6. DistilBERT: a distilled version of BERT: smaller, faster, cheaper and lighter. [`paper`](https://arxiv.org/abs/1910.01108)
+7. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations. [`paper`](https://arxiv.org/abs/1909.11942)
+8. T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. [`paper`](https://arxiv.org/abs/1910.10683)
 
 
 ### 02) Models
