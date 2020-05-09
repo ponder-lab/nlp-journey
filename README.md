@@ -129,14 +129,14 @@
 
 ## 4. Articles
 
-- 如何学习自然语言处理（综合版）. [`地址`](https://mp.weixin.qq.com/s/lJYp4hUZVsp-Uj-5NqoaYQ)
-- The Illustrated Transformer.[`地址`](https://jalammar.github.io/illustrated-transformer/)
-- Attention-based-model. [`地址`](http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/)
-- Modern Deep Learning Techniques Applied to Natural Language Processing. [`地址`](https://nlpoverview.com/)
-- 难以置信！LSTM和GRU的解析从未如此清晰（动图+视频）。[`地址`](https://blog.csdn.net/dqcfkyqdxym3f8rb0/article/details/82922386)
-- 从语言模型到Seq2Seq：Transformer如戏，全靠Mask. [`地址`](https://spaces.ac.cn/archives/6933)
-- Applying word2vec to Recommenders and Advertising. [`地址`](http://mccormickml.com/2018/06/15/applying-word2vec-to-recommenders-and-advertising/)
-- 2019 NLP大全：论文、博客、教程、工程进展全梳理. [`地址`](https://zhuanlan.zhihu.com/p/108442724)
+- 如何学习自然语言处理（综合版）. [`url`](https://mp.weixin.qq.com/s/lJYp4hUZVsp-Uj-5NqoaYQ)
+- The Illustrated Transformer.[`url`](https://jalammar.github.io/illustrated-transformer/)
+- Attention-based-model. [`url`](http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/)
+- Modern Deep Learning Techniques Applied to Natural Language Processing. [`url`](https://nlpoverview.com/)
+- 难以置信！LSTM和GRU的解析从未如此清晰（动图+视频）。[`url`](https://blog.csdn.net/dqcfkyqdxym3f8rb0/article/details/82922386)
+- 从语言模型到Seq2Seq：Transformer如戏，全靠Mask. [`url`](https://spaces.ac.cn/archives/6933)
+- Applying word2vec to Recommenders and Advertising. [`url`](http://mccormickml.com/2018/06/15/applying-word2vec-to-recommenders-and-advertising/)
+- 2019 NLP大全：论文、博客、教程、工程进展全梳理. [`url`](https://zhuanlan.zhihu.com/p/108442724)
 
 ## 5. Github
 
