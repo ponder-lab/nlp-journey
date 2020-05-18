@@ -10,7 +10,12 @@ class EDA:
     def __init__(self, stop_path):
         self.stopwords = self._load_stopwords(stop_path)
 
-    def fit_transform(self, sentence, alpha_sr=0.1, alpha_ri=0.1, alpha_rs=0.1, p_rd=0.1, num_aug=9):
+    def fit_transform(self, sentence,
+                      alpha_sr=0.1,
+                      alpha_ri=0.1,
+                      alpha_rs=0.1,
+                      p_rd=0.1,
+                      num_aug=9):
         """
         统一替换
         """
