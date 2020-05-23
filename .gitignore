@@ -155,3 +155,4 @@ checkpoint/
 checkpoint
 model.ckpt*
 
+input/
