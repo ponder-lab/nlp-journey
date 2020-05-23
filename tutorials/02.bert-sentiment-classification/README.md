@@ -2,6 +2,10 @@
 
 **Learned from [Training Sentiment Model Using BERT and Serving it with Flask API](https://www.youtube.com/watch?v=hinZO--TEk4&list=PL98nY_tJQXZl0WwsJluhc6tGrKWCX2suH&index=3)**
 
+## Input files
+
+URL: [https://kexue.fm/archives/3414](https://kexue.fm/archives/3414)
+
 ## Pretrained pytorch bert model
 
 URL: [https://huggingface.co/bert-base-chinese](https://huggingface.co/bert-base-chinese)
