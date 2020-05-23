@@ -17,7 +17,6 @@ def sentence_prediction(sentence, model):
     tokenizer = config.TOKENIZER
     max_length = config.MAX_LEN
     review = str(sentence)
-    review = " ".join(review.split())
 
     inputs = tokenizer.encode_plus(
         review,
