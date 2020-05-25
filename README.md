@@ -123,6 +123,7 @@
 ## 4. Articles
 
 - 如何学习自然语言处理（综合版）. [`url`](https://mp.weixin.qq.com/s/lJYp4hUZVsp-Uj-5NqoaYQ)
+- TRANSFORMERS FROM SCRATCH. [`url`](http://peterbloem.nl/blog/transformers)
 - The Illustrated Transformer.[`url`](https://jalammar.github.io/illustrated-transformer/)
 - Attention-based-model. [`url`](http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/)
 - Modern Deep Learning Techniques Applied to Natural Language Processing. [`url`](https://nlpoverview.com/)
