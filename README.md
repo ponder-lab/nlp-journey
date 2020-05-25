@@ -134,6 +134,7 @@
 
 ## 5. Github
 
+* CLUE. [`github`](https://github.com/CLUEbenchmark/CLUE)
 * transformers. [`github`](https://github.com/huggingface/transformers)
 * HanLP. [`github`](https://github.com/hankcs/HanLP)
 
