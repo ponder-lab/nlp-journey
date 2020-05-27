@@ -193,3 +193,9 @@ Batch Normalization允许模型对参数的初始化不那么敏感，并且简�
 1. 对softmax（T=20）的输出与Teacher的softmax（T=20）的输出求loss1。
 2. 对softmax（T=1）的输出与原始label求loss2。
 3. loss = loss1+loss2
+
+## 18、如何理解深度学习源码里经常出现的logits？
+
+可以这么理解：logits与 softmax都属于在输出层的内容，
+logits = tf.matmul(X, W) + bias，
+再对logits做归一化处理，就用到了softmax：Y_pred = tf.nn.softmax(logits,name='Y_pred')
