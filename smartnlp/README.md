@@ -2,7 +2,7 @@
 
 > Clean codes
 
-**install **
+**install**
 
 ```shell script
 pip install smartnlp
