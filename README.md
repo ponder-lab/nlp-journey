@@ -34,7 +34,8 @@
 6. DistilBERT: a distilled version of BERT: smaller, faster, cheaper and lighter. [`paper`](https://arxiv.org/abs/1910.01108)
 7. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations. [`paper`](https://arxiv.org/abs/1909.11942)
 8. T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. [`paper`](https://arxiv.org/abs/1910.10683)
-9. GPT3: Language Models are Few-Shot Learners. [`paper`](https://arxiv.org/pdf/2005.14165.pdf)
+9. ELECTRA: pre-training text encoders as discriminators rather than generators. [`paper`](https://openreview.net/pdf?id=r1xMH1BtvB)
+10. GPT3: Language Models are Few-Shot Learners. [`paper`](https://arxiv.org/pdf/2005.14165.pdf)
 
 
 ### 02) Models
