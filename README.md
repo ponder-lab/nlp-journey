@@ -24,7 +24,7 @@
 
 ## 3. Papers
 
-### 01) NLP papers
+### 01) Transformer papers
 
 1. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [`paper`](https://arxiv.org/abs/1810.04805)
 2. GPT-2: Language Models are Unsupervised Multitask Learners. [`paper`](https://blog.openai.com/better-language-models/)
