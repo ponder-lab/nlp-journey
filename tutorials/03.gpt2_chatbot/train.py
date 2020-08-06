@@ -88,16 +88,18 @@ def run():
 
     logger.info("start training...")
     best_loss = 100
+    best_accuracy = 0
     for epoch in range(config.EPOCHS):
         train_fn(model, train_data_loader, optimizer, scheduler, epoch,
                  batch_num, multi_gpu)
-        loss = eval_fn(model, test_data_loader, test_batch_num, multi_gpu)
-        if loss < best_loss:
+        loss, accuracy = eval_fn(model, test_data_loader, test_batch_num, multi_gpu)
+        if loss < best_loss or accuracy > best_accuracy:
             logger.info('saving model for epoch {}, best loss: {}'.format(
                 epoch + 1, loss))
             model_to_save = model.module if hasattr(model, 'module') else model
             model_to_save.save_pretrained(config.MODEL_PATH)
             best_loss = loss
+            best_accuracy = accuracy
 
 
 if __name__ == '__main__':
