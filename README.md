@@ -9,9 +9,7 @@
 
 ## 1. Basics
 
-* [basics](docs/basic.md)
 * [tutorials](tutorials/)
-* [notes](docs/notes.md)
 * [frequent questions](docs/fq.md)
 
 
