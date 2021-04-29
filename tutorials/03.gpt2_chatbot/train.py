@@ -35,7 +35,7 @@ def run():
                                              random_state=34)
 
     # 加载GPT2模型
-    model, n_ctx = create_model(True)
+    model, n_ctx = create_model(False)
     model.to(config.DEVICE)
     # 是否使用多块GPU进行并行运算: 可以选择要使用哪几块显卡来进行训练
     multi_gpu = False
@@ -78,9 +78,10 @@ def run():
     logger.info('total training steps = {}'.format(total_steps))
 
     # 设置优化器，并且在初始训练时，使用warmup策略
-    optimizer = AdamW(model.parameters(),
-                      lr=config.LEARNING_RATE,
-                      correct_bias=True)
+    optimizer = AdamW(
+        model.parameters(),
+        lr=config.LEARNING_RATE,
+        correct_bias=True)
     scheduler = get_linear_schedule_with_warmup(
         optimizer,
         num_warmup_steps=config.WARM_STEPS,

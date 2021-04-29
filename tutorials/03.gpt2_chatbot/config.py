@@ -4,14 +4,14 @@ import torch
 from transformers import BertTokenizer
 
 # 模型训练相关路径
-CONFIG_JSON_FILE = "../models/config/model_config_dialogue_small.json"
-RAW_DATA_PATH = "../input/data/train.txt"
-VOCAB_FILE = "../input/data/vocab_small.txt"
+CONFIG_JSON_FILE = "../config/model_config_dialogue_small.json"
+RAW_DATA_PATH = "../input/train.txt"
+VOCAB_FILE = "../input/vocab_small.txt"
 
 # 模型输出相关路径
 LOG_PATH = "../log/"
-MODEL_PATH = "../models/dialogue"
-SAVE_SAMPLES_PATH = "../models/samples/"
+MODEL_PATH = "../models"
+SAVE_SAMPLES_PATH = "../samples/"
 
 # 训练相关参数
 SEED = 34

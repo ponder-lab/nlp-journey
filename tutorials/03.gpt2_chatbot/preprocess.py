@@ -18,7 +18,7 @@ def process_raw_data():
                 dialogue.replace("\n", " [SEP] ")
                 for dialogue in data.split("\n\n")
             ]
-    return train_data
+    return train_data[:100]
 
 
 if __name__ == "__main__":

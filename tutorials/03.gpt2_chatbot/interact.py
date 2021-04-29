@@ -4,11 +4,12 @@
 import os
 from datetime import datetime
 
-import config
 import torch
 import torch.nn.functional as F
-from util import logger
+
+import config
 from model import create_model
+from util import logger
 
 
 def top_k_top_p_filtering(logits, top_k=0, top_p=0.0, filter_value=-float('Inf')):

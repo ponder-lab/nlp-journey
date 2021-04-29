@@ -14,7 +14,8 @@ class DialogueDataset(Dataset):
         text = self.dataset[item]
         input_ids = self.tokenizer.encode(
             text,
-            max_length=self.max_len
+            max_length=self.max_len,
+            truncation=True
         )
         return input_ids
 
