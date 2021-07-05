@@ -137,6 +137,7 @@
 * CLUE. [`github`](https://github.com/CLUEbenchmark/CLUE)
 * transformers. [`github`](https://github.com/huggingface/transformers)
 * HanLP. [`github`](https://github.com/hankcs/HanLP)
+* ML-For-Beginners. [`github`](https://github.com/microsoft/ML-For-Beginners.git)
 
 ## 6. Blog
 
