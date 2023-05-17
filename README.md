@@ -13,7 +13,7 @@
 * [frequent questions](docs/fq.md)
 
 
-## 2. Books([`baiduyun`](https://pan.baidu.com/s/14z5SnM28guarUZfZihdTPw) code：txqx)
+## 2. Books
 
 1. Handbook of Graphical Models. [`online`](https://stat.ethz.ch/~maathuis/papers/Handbook.pdf)
 2. Deep Learning. [`online`](https://www.deeplearningbook.org/)
