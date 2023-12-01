@@ -120,6 +120,11 @@
 3. FewRel: A Large-Scale Supervised Few-Shot Relation Classification Dataset with State-of-the-Art Evaluation. [`paper`](https://aclweb.org/anthology/D18-1514)
 4. End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures. [`paper`](https://www.aclweb.org/anthology/P16-1105)
 
+### 12) Large Language Models
+
+1. Training language models to follow instructions with human feedback. [`paper`](https://arxiv.org/pdf/2203.02155.pdf)
+2. LLaMA: Open and Efficient Foundation Language Models. [`paper`](https://arxiv.org/pdf/2302.13971.pdf))
+
 ## 4. Articles
 
 - 如何学习自然语言处理（综合版）. [`url`](https://mp.weixin.qq.com/s/lJYp4hUZVsp-Uj-5NqoaYQ)
