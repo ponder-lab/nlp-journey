@@ -123,7 +123,7 @@
 ### 12) Large Language Models
 
 1. Training language models to follow instructions with human feedback. [`paper`](https://arxiv.org/pdf/2203.02155.pdf)
-2. LLaMA: Open and Efficient Foundation Language Models. [`paper`](https://arxiv.org/pdf/2302.13971.pdf))
+2. LLaMA: Open and Efficient Foundation Language Models. [`paper`](https://arxiv.org/pdf/2302.13971.pdf)
 
 ## 4. Articles
 
