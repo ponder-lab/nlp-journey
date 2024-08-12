@@ -61,7 +61,7 @@ class BiLSTMCRFNamedEntityRecognition:
         self.file_path = file_path
         self.batch_size = batch_size
         # 词性tag
-        self.tags = ['O', 'B-PER', 'I-PER', 'B-LOC', 'I-LOC', "B-ORG", "I-ORG"]
+        self.tags = ['O', 'B-PER', 'I-PER', 'B-LOC', 'I-LOC', "B-ORG", "I-ORG", '-X-', 'NNS', 'VBZ', 'JJ', 'NN', 'TO', 'VB', '.', 'NNP', 'CD', 'DT', 'VBD', 'IN', 'PRP', 'VBP', 'MD', 'VBN', 'POS', 'JJR', '``', 'RB', ',', "''", 'FW', 'CC', '-LRB-', '-RRB-',':', 'PRP$']
 
         # 非训练模式，直接加载模型
         if not train:
@@ -138,19 +138,7 @@ class BiLSTMCRFNamedEntityRecognition:
         sent, length = self._preprocess_data(predict_text)
         raw = self.model.predict(sent)[0][-length:]
         result = np.argmax(raw, axis=1)
-        result_tags = [self.tags[i] for i in result]
-
-        per, loc, org = '', '', ''
-        for s, t in zip(predict_text, result_tags):
-            if t in ('B-PER', 'I-PER'):
-                per += ' ' + s if (t == 'B-PER') else s
-            if t in ('B-ORG', 'I-ORG'):
-                org += ' ' + s if (t == 'B-ORG') else s
-            if t in ('B-LOC', 'I-LOC'):
-                loc += ' ' + s if (t == 'B-LOC') else s
-        results = ['person:' + per, 'location:' + loc, 'organization:' + org]
-        print(results)
-        return results
+        return None
 
     # 预测的时候，进行数据处理转换
     def _preprocess_data(self, data, max_len=100):
