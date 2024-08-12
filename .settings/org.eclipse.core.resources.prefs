@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
 encoding//smartnlp/classfication/fasttext_classifier.py=utf-8
 encoding//smartnlp/custom/layer/attention.py=utf-8
+encoding//smartnlp/utils/loader.py=utf-8
