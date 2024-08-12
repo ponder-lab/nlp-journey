@@ -88,6 +88,7 @@ class MultiHeadAttention(tf.keras.layers.Layer):
         self.dense = tf.keras.layers.Dense(d_model)
 
     @staticmethod
+    @tf.function
     def scaled_dot_product_attention(q, k, v, mask):
         """计算注意力权重。
           q, k, v 必须具有匹配的前置维度。
@@ -126,6 +127,7 @@ class MultiHeadAttention(tf.keras.layers.Layer):
         x = tf.reshape(x, (batch_size, -1, self.num_heads, self.depth))
         return tf.transpose(x, perm=[0, 2, 1, 3])
 
+    @tf.function
     def call(self, v, k, q, mask):
         batch_size = tf.shape(q)[0]
         q = self.wq(q)

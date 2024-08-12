@@ -116,6 +116,7 @@ class BiLSTMCRFNamedEntityRecognition:
         return loss, logits, text_lens
 
     @staticmethod
+    @tf.function
     def get_acc_one_step(model, logits, text_lens, labels_batch):
         paths = []
         accuracy = 0
